@@ -53,4 +53,5 @@ progress.oninput = function() {
 progress.onchange = function() {
     song.play();
     ctrlIcon.src = "images/pause button.png"
+    songImg.classList.add("rotating");
 };
